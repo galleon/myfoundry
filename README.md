@@ -4,6 +4,7 @@ Use Docker to compile your Python toolbox
 * docker run -t -i -v $(pwd):/home/shared centos-6.8-dev /bin/bash -c /home/shared/compile.sh 
 * zip mytk.zip testlibwrapper.py lib
 * zip2csv.py mytk.zip
-* conda create --name foundry python=2.7 jupyter
+* conda create --name foundry python=2.7 jupyter numpy
 * source activate foundry
 * jupyter notebook
+* open the Test notebook
